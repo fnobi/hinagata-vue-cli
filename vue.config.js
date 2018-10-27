@@ -1,4 +1,4 @@
-const BASE_PATH = "/";
+const { BASE_PATH } = require("./src/constants.json");
 
 module.exports = {
     baseUrl: BASE_PATH,
