@@ -18,6 +18,7 @@
     "@vue/cli-service": "^3.0.3",
     "@vue/eslint-config-prettier": "^3.0.5",
     "node-sass": "^4.9.4",
+    "prettier-eslint": "^8.8.2",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "reset-css": "^4.0.1",
