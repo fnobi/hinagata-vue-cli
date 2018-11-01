@@ -1,5 +1,5 @@
 {
-    "HOST_NAME": "https://example.com/",
+    "SITE_ORIGIN": "https://example.com/",
     "BASE_PATH": "/",
     "META": {
         "TITLE": "hinagata-vue-cli",

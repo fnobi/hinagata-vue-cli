@@ -1,11 +1,11 @@
 const path = require("path");
-const { BASE_PATH, HOST_NAME, META } = require("./src/constants.json");
+const { BASE_PATH, SITE_ORIGIN, META } = require("./src/constants.json");
 
 const TEMPLATE_PARAMS = {
-    HOST_NAME,
+    SITE_ORIGIN,
     META,
     BASE_PATH,
-    BASE_URL: path.join(HOST_NAME, BASE_PATH)
+    BASE_URL: path.join(SITE_ORIGIN, BASE_PATH)
 };
 
 module.exports = {
