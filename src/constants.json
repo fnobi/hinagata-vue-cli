@@ -1,3 +1,8 @@
 {
-    "BASE_PATH": "/"
+    "HOST_NAME": "https://example.com/",
+    "BASE_PATH": "/",
+    "META": {
+        "TITLE": "hinagata-vue-cli",
+        "DESCRIPTION": "hinagata-vue-cli development."
+    }
 }
