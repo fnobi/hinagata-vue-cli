@@ -3,6 +3,8 @@
     "BASE_PATH": "/",
     "META": {
         "TITLE": "hinagata-vue-cli",
-        "DESCRIPTION": "hinagata-vue-cli development."
+        "DESCRIPTION": "hinagata-vue-cli development.",
+        "KEYWORDS": "vue-cli,vue.js",
+        "SHARE_IMAGE_PATH": "ogp.png"
     }
 }
