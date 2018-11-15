@@ -1,7 +1,7 @@
 <template lang="pug">
 .home
     vue-logo
-    p home
+    p あなたのポイント: {{ point }}pt
     p: router-link(:to="{ name: 'about' }") about
 </template>
 
@@ -12,6 +12,14 @@ export default {
     name: "home",
     components: {
         VueLogo
+    },
+    data: () => ({
+        point: 0
+    }),
+    mounted() {
+        const el = document.getElementById("vue-reference");
+        const data = JSON.parse(el.innerHTML);
+        this.point = data.point;
     }
 };
 </script>
@@ -20,11 +28,7 @@ export default {
 .home {
     text-align: center;
     p {
-        display: inline-block;
-        margin-right: 1em;
-        &:last-child {
-            margin-right: 0;
-        }
+        margin-top: 1em;
     }
 }
 </style>
